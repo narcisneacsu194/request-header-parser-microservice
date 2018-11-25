@@ -9,7 +9,6 @@
     "test-watch": "nodemon --exec 'npm test'"
   },
   "dependencies": {
-    "axios": "^0.18.0",
     "express": "^4.16.4",
     "public-ip": "^2.4.0"
   },
