@@ -20,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You need to have ***npm*** and ***nodejs*** installed on your computer.
+You need to have ***git***, ***yarn*** and ***nodejs*** installed on your computer.
 
 You will also need to add a *config.json* file inside the *config* folder that is present within the project. The contents of that file should look something like the following:
 
@@ -35,14 +35,14 @@ You will also need to add a *config.json* file inside the *config* folder that i
 }
 
 ```
-You only need to specify the *port* for each *environment*. That port number will be used by the server at runtime.
+You must specify the *port* for each *environment* (in this case, port '3000' was used, for the *development* and *test* environments). That port number will be used by the server at runtime.
 
 ### Installation steps
 
 ```
 > git clone git@github.com:narcisneacsu194/request-header-parser-microservice.git
 > cd {your_local_path}/request-header-parser-microservice
-> npm install
+> yarn install
 > node server.js
 ```
 
